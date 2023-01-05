@@ -1,0 +1,141 @@
+body {
+    background: var(--cor-1);
+    padding: 10px;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 10px;
+}
+img {
+    max-width: 100%;
+}
+
+.bg-pagina span {
+    position: relative;
+    top: 300px;
+    right: -750px;
+    color: var(--cor-5);
+}
+
+.bg-pagina {
+    background-image: url('../img/bg.png');
+    background-color: var(--cor-4);
+    background-repeat: no-repeat;
+    background-size: 1300px 975px;
+    position: absolute;
+    width: 1300px;
+    height: 975px;
+    z-index: -1;
+}
+.divisor {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: start;
+}
+
+.logo-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: none;
+}
+
+.logoname-1 {
+    color: var(--salmao-2);
+    text-shadow: var(--cor-4);
+
+}
+.logoname-2 {
+    color: var(--verde-1);
+}
+
+
+.textos-gerais {
+    background: rgba(255, 255, 255, 0.87);;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 40px;
+}
+
+.textos-detail {
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+}
+
+.td-1 {
+    background: var(--verde-1);
+}
+.td-2 {
+    background: var(--salmao-1);
+}
+.td-3 {
+    background: var(--rosa-1);
+}
+
+.input-layout {
+    background-color: var(--cor-6);
+    border-radius: 6px;
+    width: 335px;
+    height: 59px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+input {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.input-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+.input-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+.input-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+.input-4 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.signup-btn {
+    background: var(--verde-1);
+    width: 335px;
+    height: 59px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.footer-terms {
+    text-align: center;
+}
+
+a {
+    color: var(--salmao-2);
+}
+
+a:hover {
+    color: var(--verde-1);
+}

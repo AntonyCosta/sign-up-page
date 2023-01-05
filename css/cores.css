@@ -1,0 +1,16 @@
+:root {
+    /* paleta branco e preto */
+    --cor-1: #FFFFFF;
+    --cor-2: #808080;
+    --cor-3: #000000;
+    --cor-4: #E5E5E5;
+    --cor-5: #343434;
+    --cor-6: #F5F5F5;
+
+    /* paleta colorida */
+    --rosa-1: #FE2F75;
+    --verde-1:#70EDB9;
+    --verde-2:#5DC399;
+    --salmao-1: #FFA689;
+    --salmao-2: #FF8D8D;
+}
